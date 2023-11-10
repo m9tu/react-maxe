@@ -33,7 +33,7 @@ header .containerItemList{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header .containerItemList ul{
@@ -59,4 +59,32 @@ header .containerCart{
     justify-content: center;
     align-items: center;
     min-width: 72px;
+}
+
+header .containerCart .containerLength{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+header .containerCart .ContainerLength img{
+    width: 25px;
+    height: 25px;
+}
+
+
+header .containerCart .containerLength .cantCart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-txt-nav);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 0;
+    left: 80%;
+    border-radius: 50%;
 }
